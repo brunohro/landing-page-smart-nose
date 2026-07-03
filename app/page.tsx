@@ -24,13 +24,13 @@ export default function Page() {
         <Solution />
         <HowItWorks />
         <Hardware />
-        <DashboardPreview />
+        {/* <DashboardPreview /> */}
         <Features />
         <Applications />
-        <Comparison />
+        {/* <Comparison /> */}
         <Technologies />
-        <Stats />
-        <Roadmap />
+        {/* <Stats /> */}
+        {/* <Roadmap /> */}
         <CTA />
       </main>
       <SiteFooter />
