@@ -13,6 +13,7 @@ import { Stats } from "@/components/stats"
 import { Roadmap } from "@/components/roadmap"
 import { CTA } from "@/components/cta"
 import { SiteFooter } from "@/components/site-footer"
+import { Team } from "@/components/team"
 
 export default function Page() {
   return (
@@ -31,6 +32,7 @@ export default function Page() {
         <Technologies />
         {/* <Stats /> */}
         {/* <Roadmap /> */}
+        <Team />
         <CTA />
       </main>
       <SiteFooter />
