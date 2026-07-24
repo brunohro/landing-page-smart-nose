@@ -6,6 +6,7 @@ import { HowItWorks } from "@/components/how-it-works"
 import { Hardware } from "@/components/hardware"
 import { DashboardPreview } from "@/components/dashboard-preview"
 import { Features } from "@/components/features"
+import { HardwareAndFeatures } from "@/components/hardware-and-features"
 import { Applications } from "@/components/applications"
 import { Comparison } from "@/components/comparison"
 import { Technologies } from "@/components/technologies"
@@ -24,9 +25,10 @@ export default function Page() {
         <Problem />
         <Solution />
         <HowItWorks />
-        <Hardware />
+        {/* <Hardware /> */}
         {/* <DashboardPreview /> */}
-        <Features />
+        {/* <Features /> */}
+        <HardwareAndFeatures />
         <Applications />
         {/* <Comparison /> */}
         <Technologies />
