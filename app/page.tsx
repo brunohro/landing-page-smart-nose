@@ -2,6 +2,7 @@ import { SiteHeader } from "@/components/site-header"
 import { Hero } from "@/components/hero"
 import { Problem } from "@/components/problem"
 import { Solution } from "@/components/solution"
+import { ProblemAndSolution } from "@/components/problem-and-solution"
 import { HowItWorks } from "@/components/how-it-works"
 import { Hardware } from "@/components/hardware"
 import { DashboardPreview } from "@/components/dashboard-preview"
@@ -22,8 +23,9 @@ export default function Page() {
       <SiteHeader />
       <main>
         <Hero />
-        <Problem />
-        <Solution />
+        {/* <Problem /> */}
+        {/* <Solution /> */}
+        <ProblemAndSolution />
         <HowItWorks />
         {/* <Hardware /> */}
         {/* <DashboardPreview /> */}
