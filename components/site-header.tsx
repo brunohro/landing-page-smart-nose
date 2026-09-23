@@ -10,9 +10,8 @@ const links = [
   { href: "#problema", label: "Problema" },
   { href: "#solucao", label: "Solução" },
   { href: "#hardware", label: "Hardware" },
-  { href: "#dashboard", label: "Dashboard" },
   { href: "#aplicacoes", label: "Aplicações" },
-  { href: "#roadmap", label: "Roadmap" },
+  { href: "#equipe", label: "Equipe" },
 ]
 
 export function SiteHeader() {

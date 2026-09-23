@@ -16,7 +16,7 @@ const team = [
     linkedin: "#",
     email: "#",
   },
-      {
+  {
     name: "Francisco Ary",
     role: "Orientador",
     image: "/team/ary.png",
@@ -26,10 +26,10 @@ const team = [
     linkedin: "#",
     email: "#",
   },
-      {
+  {
     name: "Hanniel Freitas",
     role: "Orientador",
-    image: "/team/maria.jpg",
+    image: "/team/hanniel.png",
     description:
       "Coordenação científica e acompanhamento do desenvolvimento do projeto.",
     github: "#",
@@ -39,7 +39,7 @@ const team = [
   {
     name: "João Pedro",
     role: "Graduando em Análise e Desenvolvimento de Sistemas",
-    image: "team/joao-pedro.png",
+    image: "/team/joao-pedro.png",
     description:
       "Desenvolvimento da plataforma SmartNose, integração entre hardware e software.",
     github: "#",
@@ -49,14 +49,14 @@ const team = [
   {
     name: "João Victor",
     role: "Graduando em Análise e Desenvolvimento de Sistemas",
-    image: "/team/maria.jpg",
+    image: "/team/joao-victor.png",
     description:
       "Desenvolvimento da plataforma SmartNose, integração entre hardware e software.",
     github: "#",
     linkedin: "#",
     email: "#",
   },
-    {
+  {
     name: "Luana Gomes",
     role: "Graduanda em Análise e Desenvolvimento de Sistemas",
     image: "/team/luana.png",
@@ -66,17 +66,16 @@ const team = [
     linkedin: "#",
     email: "#",
   },
-    {
+  {
     name: "Leandro Luttiane",
     role: "Orientador",
-    image: "/team/maria.jpg",
+    image: "/team/leandro.png",
     description:
       "Coordenação científica e acompanhamento do desenvolvimento do projeto.",
     github: "#",
     linkedin: "#",
     email: "#",
   },
-  
 ]
 
 export function Team() {
@@ -101,7 +100,8 @@ export function Team() {
         <Image
           src={member.image}
           alt={member.name}
-          fill
+          width={600}
+          height={600}
           className="object-cover transition duration-500 group-hover:scale-105"
         />
       </div>
