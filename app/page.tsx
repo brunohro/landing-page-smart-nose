@@ -2,10 +2,12 @@ import { SiteHeader } from "@/components/site-header"
 import { Hero } from "@/components/hero"
 import { Problem } from "@/components/problem"
 import { Solution } from "@/components/solution"
+import { ProblemAndSolution } from "@/components/problem-and-solution"
 import { HowItWorks } from "@/components/how-it-works"
 import { Hardware } from "@/components/hardware"
 import { DashboardPreview } from "@/components/dashboard-preview"
 import { Features } from "@/components/features"
+import { HardwareAndFeatures } from "@/components/hardware-and-features"
 import { Applications } from "@/components/applications"
 import { Comparison } from "@/components/comparison"
 import { Technologies } from "@/components/technologies"
@@ -21,12 +23,14 @@ export default function Page() {
       <SiteHeader />
       <main>
         <Hero />
-        <Problem />
-        <Solution />
+        {/* <Problem /> */}
+        {/* <Solution /> */}
+        <ProblemAndSolution />
         <HowItWorks />
-        <Hardware />
+        {/* <Hardware /> */}
         {/* <DashboardPreview /> */}
-        <Features />
+        {/* <Features /> */}
+        <HardwareAndFeatures />
         <Applications />
         {/* <Comparison /> */}
         <Technologies />
