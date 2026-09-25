@@ -53,41 +53,68 @@
 
 :root {
   color-scheme: dark;
-  --background: #0b0f19;
+
+  /* Cores principais */
+  --background: #050505;
   --foreground: #ffffff;
-  --card: #0f1726;
+
+  /* Cards e superfícies */
+  --card: #0b1416;
   --card-foreground: #ffffff;
-  --popover: #0f1726;
+
+  --popover: #0b1416;
   --popover-foreground: #ffffff;
-  --primary: #3b82f6;
+
+  /* Verde/turquesa da logo */
+  --primary: #00CFAA;
   --primary-foreground: #ffffff;
-  --secondary: #102a43;
+
+  /* Azul da logo */
+  --secondary: #0099CC;
   --secondary-foreground: #ffffff;
-  --muted: #16213a;
-  --muted-foreground: #94a3b8;
-  --accent: #22d3ee;
-  --accent-foreground: #06121a;
+
+  /* Tons discretos */
+  --muted: #102326;
+  --muted-foreground: #94a3a8;
+
+  /* Destaque */
+  --accent: #00E5C0;
+  --accent-foreground: #001a17;
+
+  /* Erro */
   --destructive: oklch(0.704 0.191 22.216);
-  --border: rgba(148, 163, 184, 0.12);
-  --input: rgba(148, 163, 184, 0.18);
-  --ring: #3b82f6;
-  --neon: #3b82f6;
-  --aqua: #22d3ee;
-  --deep: #102a43;
-  --chart-1: #3b82f6;
-  --chart-2: #22d3ee;
-  --chart-3: #60a5fa;
-  --chart-4: #0ea5e9;
-  --chart-5: #818cf8;
+
+  /* Bordas e inputs */
+  --border: rgba(0, 207, 170, 0.15);
+  --input: rgba(0, 207, 170, 0.20);
+
+  /* Foco */
+  --ring: #00CFAA;
+
+  /* Identidade da SmartNose */
+  --neon: #00CFAA;
+  --aqua: #00E5C0;
+  --deep: #006F8F;
+
+  /* Gráficos */
+  --chart-1: #00CFAA;
+  --chart-2: #0099CC;
+  --chart-3: #00E5C0;
+  --chart-4: #00AFC7;
+  --chart-5: #006F8F;
+
+  /* Outros */
   --radius: 0.75rem;
-  --sidebar: #0f1726;
+
+  /* Sidebar */
+  --sidebar: #080F11;
   --sidebar-foreground: #ffffff;
-  --sidebar-primary: #3b82f6;
+  --sidebar-primary: #00CFAA;
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #102a43;
+  --sidebar-accent: #102326;
   --sidebar-accent-foreground: #ffffff;
-  --sidebar-border: rgba(148, 163, 184, 0.12);
-  --sidebar-ring: #3b82f6;
+  --sidebar-border: rgba(0, 207, 170, 0.15);
+  --sidebar-ring: #00CFAA;
 }
 
 @layer base {
